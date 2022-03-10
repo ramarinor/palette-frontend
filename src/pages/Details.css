@@ -1,0 +1,43 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.main .image img {
+  border-radius: 1rem;
+}
+.description {
+  padding: 1rem;
+  display: grid;
+}
+.description,
+.image {
+  aspect-ratio: 1/1;
+}
+
+.description .name-and-number {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.description .name-and-number .name {
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.description .name-and-number .number {
+  font-family: "Maison Neue", sans-serif;
+  font-size: 0.8rem;
+  color: rgb(60, 60, 60);
+}
+
+.description .info {
+  text-align: justify;
+  margin-bottom: 1.5rem;
+  color: rgb(60, 60, 60);
+  overflow: auto;
+}

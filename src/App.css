@@ -1,0 +1,66 @@
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.cta {
+  color: white;
+  background-color: rgb(31, 30, 30);
+  border: 1px solid rgb(31, 30, 30);
+  font-size: 0.6rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 900;
+}
+.cta:hover,
+.cta:active {
+  color: rgb(31, 30, 30);
+  background-color: white;
+}
+
+.paints {
+  margin-bottom: 4rem;
+}
+
+.paints .paints-title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.paints .paints-link {
+  text-align: center;
+}
+
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 3rem;
+  align-items: flex-start;
+}
+.cart-container {
+  width: 50vw;
+  margin: 0 auto 3rem;
+}
+
+.cart-container > h2 {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+.cart-container > ul {
+  list-style-type: none;
+  border: 1px solid rgb(31, 30, 30);
+  border-radius: 5px;
+  height: 60vh;
+  padding: 2rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.filters {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+}

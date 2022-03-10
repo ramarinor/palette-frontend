@@ -1,0 +1,25 @@
+.samples .sample-link {
+  color: rgb(60, 60, 60);
+  font-size: 0.5rem;
+  text-align: center;
+}
+.sample .sample-square {
+  position: relative;
+  aspect-ratio: 1/1;
+}
+.sample .sample-info {
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.sample .sample-square img {
+  position: absolute;
+  right: 0;
+  opacity: 0%;
+  transition: opacity 0.5s;
+}
+
+.sample:hover .sample-square img,
+.sample:active .sample-square img {
+  opacity: 100%;
+}

@@ -1,0 +1,13 @@
+.partners .partners-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+.partners .partners-title {
+  text-align: center;
+  color: rgb(60, 60, 60);
+  font-family: "Maison Neue", sans-serif;
+  font-size: 0.5rem;
+}

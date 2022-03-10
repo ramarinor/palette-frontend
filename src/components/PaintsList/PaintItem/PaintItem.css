@@ -1,0 +1,24 @@
+.paints .paint-link {
+  color: rgb(60, 60, 60);
+  font-size: 0.5rem;
+  text-align: center;
+}
+.paint .paint-circle {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.paint .paint-info {
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.paint .paint-circle img {
+  border-radius: 50%;
+  opacity: 0%;
+  transition: opacity 0.5s;
+}
+
+.paint:hover .paint-circle img,
+.paint:active .paint-circle img {
+  opacity: 100%;
+}

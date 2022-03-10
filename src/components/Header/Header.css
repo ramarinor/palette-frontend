@@ -1,0 +1,59 @@
+.header {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(92, 92, 92, 0.2);
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 100;
+}
+
+.header .nav-bar {
+  font-family: "Maison Neue", sans-serif;
+}
+.header .nav-bar-list {
+  list-style-type: none;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+.header .nav-bar-link,
+.header .logo-link,
+.header .mobile-nav-link {
+  color: black;
+  position: relative;
+}
+.header .nav-bar-link::after,
+.header .mobile-nav-link::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: 1s;
+  bottom: -4px;
+  left: 0;
+}
+.header .logo-link::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  transition: 1s;
+  bottom: 4px;
+  left: 0;
+}
+.header .nav-bar-link:hover::after,
+.header .nav-bar-link.active::after,
+.header .logo-link:hover::after,
+.header .logo-link.active::after {
+  width: 100%;
+  background-color: black;
+}
+.header .logo {
+  font-size: 2rem;
+  font-weight: 400;
+}

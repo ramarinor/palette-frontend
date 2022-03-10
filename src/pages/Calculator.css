@@ -1,0 +1,10 @@
+.calculator {
+  display: grid;
+  padding: 1rem;
+  place-items: center;
+  gap: 1rem;
+}
+
+.calculator input {
+  width: 2rem;
+}

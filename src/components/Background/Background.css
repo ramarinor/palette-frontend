@@ -1,0 +1,35 @@
+/* General */
+.background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+}
+.background .background-headline {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  backdrop-filter: blur(10px);
+}
+/* home */
+.background.home {
+  height: calc(100vh - 5rem);
+  padding: 5rem 4rem;
+}
+.background.home .background-headline {
+  width: 12ch;
+}
+/* not home */
+
+.background:not(.home) {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  place-items: center;
+  height: calc(75vh - 5rem);
+}
+
+.background:not(.home) .background-headline {
+  text-align: center;
+}

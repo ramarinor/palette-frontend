@@ -1,0 +1,35 @@
+.samples-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.samples-section .samples-headline {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  aspect-ratio: 1/1;
+  background-color: rgb(229, 226, 221);
+  border-radius: 1rem;
+}
+
+.samples-section .samples-headline-content {
+  align-self: flex-end;
+  max-width: 12ch;
+  text-align: center;
+  color: #1f1e1e;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.samples-section .samples-link {
+  align-self: baseline;
+}
+.samples-section .samples-image {
+  aspect-ratio: 1/1;
+  background-image: url(/assets/backgrounds/home-samples.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}

@@ -1,0 +1,14 @@
+.reasons {
+  font-family: "Maison Neue", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 2rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.reason {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem;
+  font-size: 0.6rem;
+}
